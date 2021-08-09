@@ -20,7 +20,7 @@
             </div>
           </div>
           <!-- Container-fluid starts-->
-          <div class="container-fluid">
+          <!-- <div class="container-fluid">
             <div class="row">
               <div class="col-lg-12 xl-100">
                 <div class="row">
@@ -379,7 +379,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           <!-- Container-fluid Ends-->
           <div class="welcome-popup modal fade" id="loadModal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">

@@ -20,84 +20,59 @@
                   <li><a id="sidebar-settings-email-settings" href="{{ route('admin_settings_email_settings') }}">Email Settings</a></li>
                   <li><a id="sidebar-settings-academic-year" href="{{ route('admin_settings_academic_year') }}">Academic Year</a></li>
                   <li><a href="grid.html">User Role</a></li>
-                  <li><a href="tag-pills.html">Role Permision</a></li>
-                  <li><a href="progress-bar.html">Manage Super Admin</a></li>
-                  <li><a href="modal.html">Manage User</a></li>
-                  <li><a href="alert.html">Reset User Password</a></li>
-                  <li><a href="popover.html">Reset Username</a></li>
-                  <li><a href="tooltip.html">User Credientials</a></li>
-                  <li><a href="loader.html">Activity Log</a></li>
-                  <li><a href="dropdown.html">Manage Feedback</a></li>
-                  <li><a href="tab-bootstrap.html">Backup Datebase</a></li>
+                  <li><a href="#">Role Permision</a></li>
+                  <li><a href="#">Manage Super Admin</a></li>
+                  <li><a href="#">Manage User</a></li>
+                  <li><a href="#">Reset User Password</a></li>
+                  <li><a href="#">Reset Username</a></li>
+                  <li><a href="#">User Credientials</a></li>
+                  <li><a href="#">Activity Log</a></li>
+                  <li><a href="#">Manage Feedback</a></li>
+                  <li><a href="#">Backup Datebase</a></li>
                 </ul>
               </li>
               <li id="sidebar-school-management">
                 <a class="bar-icons" href="javascript:void(0)"><i class="pe-7s-diamond"></i><span>School</span></a>
                 <ul class="iconbar-mainmenu custom-scrollbar">
                   <li class="iconbar-header">School Management</li>
-                  <li><a id="sidebar-school-management-add-school" href="{{ route('admin_school_management_add_school') }}">Add</a></li>
-                  <li><a id="sidebar-school-management-school-view" href="{{ route('admin_school_management_school_view') }}">View List</a></li>
+                  <li>
+                    <a id="sidebar-school-management-add-school" href="{{ route('admin_school_management_add_school') }}">Schools</a>
+                  </li>
+                  <li>
+                    <a id="sidebar-school-management-add-branch" href="{{ route('admin_school_management_add_branch') }}">Branches</a>
+                  </li>
                 </ul>
               </li>
 
 
-              <!-- <li><a class="bar-icons" href="javascript:void(0)"><i class="pe-7s-note2"></i><span>Forms</span></a>
+              <li id="sidebar-teacher-management">
+                <a class="bar-icons" href="javascript:void(0)"><i class="pe-7s-note2"></i><span>Teacher</span></a>
                 <ul class="iconbar-mainmenu custom-scrollbar">
-                  <li class="iconbar-header">Form Controls</li>
-                  <li><a href="form-validation.html">Form Validation</a></li>
-                  <li><a href="base-input.html">Base Inputs</a></li>
-                  <li><a href="radio-checkbox-control.html">Checkbox & Radio</a></li>
-                  <li><a href="input-group.html">Input Groups</a></li>
-                  <li><a href="megaoptions.html">Mega Options</a></li>
-                  <li class="iconbar-header sub-header">Form Widgets</li>
-                  <li><a href="datepicker.html">Datepicker</a></li>
-                  <li><a href="time-picker.html">Timepicker</a></li>
-                  <li><a href="datetimepicker.html">Datetimepicker</a></li>
-                  <li><a href="daterangepicker.html">Daterangepicker</a></li>
-                  <li><a href="touchspin.html">Touchspin</a></li>
-                  <li><a href="select2.html">Select2</a></li>
-                  <li><a href="switch.html">Switch</a></li>
-                  <li><a href="typeahead.html">Typeahead</a></li>
-                  <li><a href="clipboard.html">Clipboard</a></li>
-                  <li class="iconbar-header sub-header">Form Layout</li>
-                  <li><a href="default-form.html">Default Forms</a></li>
-                  <li><a href="form-wizard.html">Form Wizard 1</a></li>
-                  <li><a href="form-wizard-two.html">Form Wizard 2</a></li>
-                  <li><a href="form-wizard-three.html">Form Wizard 3</a></li>
-                  <li><a href="form-wizard-four.html">Form Wizard 4</a></li>
+                  <li class="iconbar-header">Teachers Management</li>
+                  <li>
+                    <a id="sidebar-teacher-management-add-teacher" href="{{ route('admin_teacher_management_add_teacher') }}">Teacher</a>
+                  </li>
                 </ul>
               </li>
-              <li><a class="bar-icons" href="javascript:void(0)"><i class="pe-7s-id"></i><span>Tables</span></a>
+              <li id="sidebar-student-management">
+                <a class="bar-icons" href="javascript:void(0)"><i class="pe-7s-id"></i><span>Student</span></a>
                 <ul class="iconbar-mainmenu custom-scrollbar">
-                  <li class="iconbar-header">Bootstrap Tables</li>
-                  <li><a href="bootstrap-basic-table.html">Basic Tables</a></li>
-                  <li><a href="bootstrap-sizing-table.html">Sizing Tables</a></li>
-                  <li><a href="bootstrap-border-table.html">Border Tables</a></li>
+                  <li class="iconbar-header">Student Management</li>
+                  <li>
+                    <a id="sidebar-student-management-add-student-type" href="{{ route('admin_student_management_add_student_type') }}">Student Type</a>
+                  </li>
+                  <li>
+                    <a id="sidebar-student-management-add-student" href="{{ route('admin_student_management_add_student') }}">Student</a>
+                  </li>
+
+                  <!-- <li><a href="bootstrap-border-table.html">Border Tables</a></li>
                   <li><a href="bootstrap-styling-table.html">Styling Tables</a></li>
-                  <li><a href="table-components.html">Table components</a></li>
-                  <li class="iconbar-header sub-header">Data Tables</li>
-                  <li><a href="datatable-basic-init.html">Basic Init</a></li>
-                  <li><a href="datatable-advance.html">Advance Init</a></li>
-                  <li><a href="datatable-styling.html">Styling</a></li>
-                  <li><a href="datatable-AJAX.html">AJAX</a></li>
-                  <li><a href="datatable-server-side.html">Server Side</a></li>
-                  <li><a href="datatable-plugin.html">Plug-in</a></li>
-                  <li><a href="datatable-API.html">API</a></li>
-                  <li><a href="datatable-data-source.html">Data Sources</a></li>
-                  <li class="iconbar-header sub-header">Extension Data Tables</li>
-                  <li><a href="datatable-ext-autofill.html">Auto Fill</a></li>
-                  <li><a href="datatable-ext-basic-button.html">Basic Button</a></li>
-                  <li><a href="datatable-ext-col-reorder.html">Column Reorder</a></li>
-                  <li><a href="datatable-ext-fixed-header.html">Fixed Header</a></li>
-                  <li><a href="datatable-ext-html-5-data-export.html">HTML 5 Export</a></li>
-                  <li><a href="datatable-ext-key-table.html">Key Table</a></li>
-                  <li><a href="datatable-ext-responsive.html">Responsive</a></li>
-                  <li><a href="datatable-ext-row-reorder.html">Row Reorder</a></li>
-                  <li><a href="datatable-ext-scroller.html">Scroller</a></li>
-                  <li><a href="jsgrid-table.html">Js Grid Table</a></li>
+                  <li><a href="table-components.html">Table components</a></li> -->
+                  
+                 
                 </ul>
               </li>
-              <li><a class="bar-icons" href="javascript:void(0)"><i class="pe-7s-graph3"></i><span>Charts</span></a>
+              <!--<li><a class="bar-icons" href="javascript:void(0)"><i class="pe-7s-graph3"></i><span>Charts</span></a>
                 <ul class="iconbar-mainmenu custom-scrollbar">
                   <li class="iconbar-header">Charts</li>
                   <li><a href="chart-apex.html">Apex Chart</a></li>
